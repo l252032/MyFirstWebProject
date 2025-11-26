@@ -1,0 +1,65 @@
+</body>
+</html>
+
+
+
+body 
+{
+    background-color: #e5e5e5;
+    font-family: Arial;
+}
+
+
+#container {
+    width: 700px;
+    margin: 20px auto;
+    background-color: lightblue;
+    padding: 15px;
+    border: 1px solid ;
+}
+
+
+#header {
+    background-color: lightgrey;
+    padding: 10px;
+    border: 1px solid #7dd5dd;
+    text-align: center;
+}
+
+#header h1 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.tagline {
+    font-size: 14px;
+}
+
+
+#sidebar {
+    width: 150px;
+    padding: 10px;
+    background-color: red;
+    border: 1px solid #4ac6d1;
+    float: left;
+    margin-right: 10px;
+}
+
+.entry {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+    overflow: auto; /* keeps layout clean with floated image */
+}
+
+.entry-img {
+    width: 100px;
+    float: right;
+    margin-left: 10px;
+    border: 1px solid #aaa;
+}
+
+.entry h2 {
+    margin-top: 0;
+    font-weight: bold;
+}
